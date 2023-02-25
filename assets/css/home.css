@@ -1,0 +1,137 @@
+h1{
+    /* background-color: turquoise; */
+}
+
+.resume-data form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.data-cont{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 2%;
+}
+
+
+.first{
+    /* border: 2px solid black; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first input {
+    height: 5vh;
+    width: 40%;
+    margin-top: 2%;
+   
+}
+.first textarea{
+    width: 40%;
+    margin-top: 2%;
+}
+
+.second{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.sk, .cer{
+    border: 1px solid black;
+    width: 40%;
+    padding: 0.7%;
+}
+
+
+.input_fields_wrap, .input_fields_wrap2{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+    
+}
+
+.wrap input{
+    width: 70%;
+    height: 3vh;
+    margin-top: 1%;
+}
+
+.add-btn{
+    background-color: lime;
+    border: none;
+    height: 4vh;
+    margin-top: 2%;
+    border-radius: 20px;
+    width: 40%;
+    cursor: pointer;
+}
+
+
+.third{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 80%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+b{
+    font-size: 1.5rem;
+}
+
+.edu, .project{
+    /* border: 1px solid red; */
+    padding: 0.7%;
+}
+
+.project textarea{
+    height: 10vh;
+    margin-top: 1%;
+}
+.career{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0.6%;
+}
+.career b{
+    font-size: 1.6rem;
+}
+.career textarea{
+    width: 90%;
+    height: 15vh;
+}
+
+.link{
+    /* border: 1px solid rebeccapurple; */
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.link input{
+    width: 40%;
+    height: 5vh;
+}
+
+.send{
+    /* border: 2px solid red; */
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send input{
+    background-color: lime;
+    width: 20%;
+    border: none;
+    height: 4vh;
+    border-radius: 20px;
+}

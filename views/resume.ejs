@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/f324db610c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/resume.css">
+</head>
+<body>
+    
+    
+    
+    <div class="main">
+
+        
+       
+        <div class="cv" id="element">
+            <link rel="stylesheet" href="./css/resume.css">
+            <% for(let i of my_data)  {%>
+                
+            <div class="left">
+                <h1 class="name">
+                    <%= i.name%>
+                </h1>
+
+                <div class="cont">
+                    <h1>Contact</h1>
+                    <span>Phone</span>
+                    <p><%= i.number %></p>
+
+                    <span>Email</span>
+                    <p><%= i.email %></p>
+
+                    <span>Address</span>
+                    <p><%= i.add.toLowerCase().charAt(0).toUpperCase()+ i.add.toLowerCase().slice(1) %></p>
+                </div>
+
+                <div class="skills">
+                    <h1>Skills</h1>
+                    
+                    <ul class="s">
+                        <% for(let j of i.skill) {%>
+                            <li><%= j %></li>
+                         <%}%>
+                    </ul>
+                </div>
+                <div class="certification">
+                    <h1>Certification</h1>
+                    <ul>
+
+                        <% for(let c of i.certificate) {%>
+                            
+                            <li> <%= c %> </li>
+                            <%}%>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="right">
+                <div class="carobj">
+                    <h1>Career objective</h1>
+                    <p><%= i.career %></p>
+                </div>
+
+                <div class="edu">
+                    <h1>Education</h1>
+
+                    <div class="set">
+                        <ul class="sch">
+                            <% for(let r of i.school  )  {%>
+                                
+                               
+                                    <li><%= r %></li>
+                                    
+                             <%}%>
+                           
+                            
+                        </ul>
+
+                        <ul>
+                            <% for(let r of i.degree  )  {%>
+                                
+                               
+                                <li><%= r %></li>
+                                
+                         <%}%>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="project">
+                    <h1>Project</h1>
+
+                    <div class="set">
+                        <ul class="sch">
+                            <% for(let r of i.title  )  {%>
+                                
+                               
+                                    <li><%= r %></li>
+                                    
+                             <%}%>
+                           
+                            
+                        </ul>
+
+                        <ul>
+                            <% for(let r of i.desc  )  {%>
+                                
+                               
+                                <li><%= r %></li>
+                                
+                         <%}%>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="connect">
+
+                    <div>
+                        <a href="<%= i.linkedin %>"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="<%= i.git %>"><i class="fa-brands fa-git"></i></a>
+                    
+                    </div>
+                   
+                </div>
+            </div>
+
+
+           
+        </div>
+        
+    </div>
+
+     <%}%>
+
+
+     <div class="print">
+        <a href="/print" target="_blank">Print</a>
+     </div>
+
+</body>
+</html>

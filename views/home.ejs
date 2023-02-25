@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f324db610c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Resume Builder</h1>
+
+        <div class="resume-data">
+            <form action="/add" method="post">
+
+                <div class="data-cont">
+
+                    <div class="first">
+                        <input class="inputs" type="text" placeholder="Name" name="name">
+                        <input class="inputs" type="number" name="number" id="" placeholder="Number">
+                        <input class="inputs" type="email" name="email" id="" placeholder="Email">
+                        <textarea class="add" name="address" id="" cols="30" placeholder="Address" rows="10"></textarea>
+
+
+                    </div>
+
+
+                    <div class="second">
+
+                        <div class="sk">
+
+                            <div class="input_fields_wrap wrap">
+
+
+                                <input type="text" class="form-control mb-3" name="skill" placeholder="Enter Skill">
+                            </div>
+
+                            <button class="add-btn add_field_button"><i class="fa-solid fa-plus"></i>Add More Fields</button>
+
+                        </div>
+
+                        <div class="cer">
+                            <div class="input_fields_wrap2 wrap">
+
+
+                                <input type="text" class="form-control mb-3" name="certification"
+                                    placeholder="Enter certification">
+                            </div>
+
+                             <button class="add-btn add_field_button2"> <i class="fa-solid fa-plus"></i> Add More Fields</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="third">
+
+
+                        <div class="edu">
+                            <b>Education</b>
+                            <div class="input_fields_wrap3 wrap">
+
+
+                                <input type="text" class="form-control mb-3" name="school" placeholder="Enter Scholl">
+                                <input type="text" class="form-control mb-3" name="degree" placeholder="Enter Degree">
+
+                            </div>
+
+                            <button class="add-btn add_field_button3"><i class="fa-solid fa-plus"></i>Add More Fields</button>
+
+                        </div>
+
+
+                        <div class="project">
+                            <b>Projects</b>
+                            <div class="input_fields_wrap4 wrap">
+
+
+                                <input type="text"  name="title" placeholder="Enter Title">
+                                <textarea name="desc" placeholder="Enter Description" id="" cols="30" rows="10"></textarea>
+
+                            </div>
+
+                            <button class="add-btn add_field_button4"><i class="fa-solid fa-plus"></i>Add More Fields</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career">
+                        <b>Career Objective</b>
+                        <textarea name="obj" placeholder="write here" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="link">
+                        <b>linkedin</b>
+                        <input type="text" placeholder="Linkedin" name="linkedin" >
+                        <b>GiiHub</b>
+                        <input type="text" placeholder="Giihub Profile" name="git" >
+                    </div>
+
+
+                </div>
+
+                <div class="send">
+                    <input type="submit" value="Send">
+                </div>
+
+                
+
+
+            </form>
+        </div>
+    </main>
+
+    <script src="./js/addelement.js"></script>
+</body>
+
+</html>

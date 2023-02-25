@@ -1,0 +1,172 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+*{
+padding: 0%;
+margin: 0%;
+text-decoration: none;
+list-style: none;
+font-family: 'Heebo', sans-serif;
+}
+
+body{
+    /* background-color: blueviolet; */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    width: 70%;
+    margin-left: 15%;
+    height: 118vh;
+}
+.cv {
+    width: 100%;
+    height: 99%;
+    border: 2px solid black;
+    display: flex;
+    background-color: #17375E;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.left{
+    background-color: #17375E;
+    height: 100%;
+    width: 40%;
+    color: #FF9900;
+}
+
+.name{
+    /* border: 2px solid yellow; */
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    /* border: 2px solid red; */
+    padding: 0.6%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+.cont h1{
+    border-bottom: 2px solid gray;
+}
+.cont span{
+    margin-top: 5px;
+    /* background-color: aliceblue; */
+}
+.skills, .certification{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    margin-top: 4%;
+}
+
+.skills h1, .certification h1{
+    border-bottom: 2px solid grey;
+}
+
+.skills ul, .certification ul{
+    margin-top: 8px;
+    /* background-color: aliceblue; */
+    list-style: circle;
+    margin-left: 10%;
+    
+}
+.skills ul li{
+    margin-top: 5px;
+    list-style: circle;
+}
+
+.right{
+    width: 60%;
+    background-color: #D9D9D9;
+    /* background-color: #17375E; */
+    height: 100%;
+}
+
+.right h1{
+    color: #000068;
+    width: max-content;
+    border-bottom: 2px solid rgb(20, 20, 20);
+}
+
+.carobj{
+    /* border: 2px solid red; */
+    height: 25%;
+    padding: 0.7%;
+}
+.carobj p{
+    margin-top: 2%;
+}
+.edu, .project{
+    /* border: 2px solid red; */
+    padding: 0.6%;
+    margin-top: 2%;
+}
+.edu ul, .project ul{
+    list-style: circle;
+    margin-left: 8%;
+}
+
+.edu ul li, .project ul li{
+    list-style: circle;
+    font-size: 1.3rem;
+}
+
+.set{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style: none;
+}
+.set ul li{
+    list-style: none;
+}
+.sch li{
+    font-weight: 800;
+}
+.connect{
+    /* border: 2px solid red; */
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+.connect div{
+    width: 50%;
+    /* background-color: #FF9900; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.connect div a{
+    font-size: 3rem;
+}
+
+.print{
+    /* border: 2px solid red; */
+    display: flex;
+    /* margin-top: 1%; */
+    justify-content: center;
+    padding: 1%;
+}
+.print a{
+    background-color: lime;
+    width: 10%;
+    display: flex;
+    border-radius: 20px;
+    height: 5vh;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    align-items: center;
+
+}
