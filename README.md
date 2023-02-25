@@ -10,6 +10,9 @@ Enter your persnal details and it will Genrate Resume in PDF format
 - clone repo and type cd ResumeBuilder
 - npm install
 - npm install nodemon 
+- npm start 
+
+- then open in http://localhost:8012/
 
 # what i use 
 - for front end i use HTML CSS and Js
